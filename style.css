@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template: repeat(2, auto) / repeat(3, auto);
+    grid-template-rows: 300px 300px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.div1, .div6{
+    background-color: red;
+}
+.div2, .div4{
+    background-color: green;
+}
+.div3, .div5{
+    background-color: yellow;
+}
